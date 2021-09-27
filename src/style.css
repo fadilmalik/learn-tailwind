@@ -13,3 +13,19 @@
 .card {
     @apply bg-blue-100 rounded p-4 border-2 border-blue-800;
 } */
+
+.nav-list {
+    @apply px-4 py-2 rounded duration-150;
+}
+
+.nav-list:hover {
+    @apply bg-pink-300 text-white;
+}
+
+.cta-link {
+    @apply border-2 border-pink-300 text-gray-700 duration-150 rounded-full py-1 px-8 inline-block mt-8;
+}
+
+.cta-link:hover {
+    @apply bg-pink-300 text-white;
+}
